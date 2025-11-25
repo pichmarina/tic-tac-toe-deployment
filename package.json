@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe-react",
+  "version": "1.0.0",
+  "description": "Simple Tic-Tac-Toe teaching example with React 18",
+  "homepage": "https://AUPP-CS.github.io/tic-tac-toe-deployment-joechea-aupp",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "react",
+    "tictactoe",
+    "teaching"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  }
+}
