@@ -2,7 +2,7 @@
   "name": "tictactoe-react",
   "version": "1.0.0",
   "description": "Simple Tic-Tac-Toe teaching example with React 18",
-  "homepage": "https://AUPP-CS.github.io/tic-tac-toe-deployment-joechea-aupp",
+  "homepage": "https://pichmarina.github.io/tic-tac-toe-deployment",
   "scripts": {
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html",
