@@ -5,7 +5,7 @@
   "homepage": "https://pichmarina.github.io/tic-tac-toe-deployment",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html --public-url /tic-tac-toe-deployment/",
+    "build": "parcel build public/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
